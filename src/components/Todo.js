@@ -13,7 +13,7 @@ deleteTodo,editTodo}) => {
         <div>
           <FontAwesomeIcon icon ={faPenToSquare} onClick ={
           () =>editTodo(task.id)} />
-          <FontAwesomeIcon icon ={faTrash} onclick ={ () => 
+          <FontAwesomeIcon icon ={faTrash} onClick ={ () => 
           deleteTodo(task.id)} />
 
         </div>
